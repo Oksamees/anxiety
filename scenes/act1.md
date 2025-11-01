@@ -98,9 +98,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Muidugi, lugu tervikuna on sama, aga igal peatükil on kaks võimalikku lõppu, lisaks kõik need hargnevad dialoogivõimalus...
-
-
+h: Muidugi, lugu tervikuna on sama, aga igal peatükil on kaks võimalikku lõppu, lisaks kõik need hargnevad dialoogi võimalus...
 
 `bb({body:"fear"});`
 
@@ -394,11 +392,11 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: KAITSE ENDA INIMEST
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: MAAILMA EEST. TEISTE INIMESTE EEST. ISEENDA EEST.
 
-n: GOOD LUCK
+n: EDU
 
 (...500)
 
@@ -412,38 +410,38 @@ n: GOOD LUCK
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: ESIMENE VOOR: *VÕITLE!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Hmm. Facebook'i voog näitab, et see nädalavahetus on toimumas üks pidu.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: Ega see veidrik korralda *iga nädalavahetus* pidusi? 
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: Millist sisemist tühjust nad püüavad täita? Nad peavad vaimselt ikka väga sassis olema!
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: Ma sain kutse?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Well then!
+b: No siis!
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[Ütle jah, või me sureme üksindusse!](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[Ütle ei, see on kupakil täis mürgistest narkootikumidest!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[Eira seda. Me oleme pidude jaoks liiga masendavad](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Fifteen cigarettes a day, human! Fifteen!
+b: Viisteist sigarettu päevas, inimene! Viisteist!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -451,11 +449,11 @@ b: Fifteen cigarettes a day, human! Fifteen!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Then no one will show up at our funeral, they'll dump our ashes into the ocean, we get eaten by a whale,
+b: Siis mitte keegi ei ole tulemas meie matusele, nad viskavad meie tuhastatud säilmed merre, me satume vaala söögiks
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: and we become WHALE POOP!
+b: ning siis me oleme VAALA KAKA!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -472,25 +470,25 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah we should go to that party!
+b: Ehk siis, me peaksime minema sellele peole!
 {{/if}}
 
 {{if _.parasite}}
-b: Just bring the laptop so we can do work, and not be a society-parasite.
+b: Lihtsalt võta kaasa sülearvuti, et me saaksime tööd teha ja mitte olla ühiskonna parasiit.
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD
+b: Seniks kuni nad ei paku SAIA!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: Isver. Olgu, kui see sind vaigistab.
 
-h: I'll say yes.
+h: Ma ütlen jah.
 
 {{if _.whalepoop}}
-b: Whale poop, human! Whale poop!
+b: Vaala kaka, inimene! Vaala kaka!
 {{/if}}
 
 `_.partyinvite="yes"`

@@ -145,7 +145,7 @@ Loader.addSounds([
 		div.innerHTML = "";
 
 		// What's the dialogue?
-		var dialogue = Game.TEXT_SPEED<80 ? "Räägi nii kiiresti" : "Räägi nii aeglaselt";
+		var dialogue = Game.TEXT_SPEED<80 ? "Räägi kiiresti" : "Räägi aeglaselt";
 
 		// Put in the text
 		var span, chr;

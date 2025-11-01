@@ -6,7 +6,7 @@
 
 (...51)
 
-[MÄNGI!](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[MÃ„NGI!](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # intro-start
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: JA SEE ON INIMESE ÄREVUS
+n: JA SEE ON INIMESE Ã„REVUS
 
-n: _SINA_ OLED ÄREVUS
+n: _SINA_ OLED Ã„REVUS
 
 (#act1_normal)
 
@@ -73,11 +73,11 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: SU ÜLESANNE ON KAITSTA OMA INIMEST *OHU EEST*
+n: SU ÃœLESANNE ON KAITSTA OMA INIMEST *OHU EEST*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Ohh! Sa raiskad enda elu Twitteris skrollimise peale, jälle!
+b: Ohh! Sa raiskad jÃ¤lle enda elu skrollimise peale Twitteris!
 
 
 ```
@@ -85,7 +85,7 @@ bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Jah, ma imestan küll, miks ma ei istuks lihtsalt ning oma mõtteid sagedamini kuulaks. 
+h: Jah, ma imestan kÃ¼ll, miks ma lihtsalt ei istuks ning oma mÃµtteid tihedamini kuulaks. 
 
 `hong({eyes:"neutral"});`
 
@@ -97,7 +97,7 @@ bb({eyes:"look"});
 
 [Oi, vaata seda jubedat uudist!](#act1d_news)
 
-[Oh ei, kas see säuts on salaja *meie kohta?*](#act1d_subtweet)
+[Oh ei, kas see sÃ¤uts on salaja *meie kohta?*](#act1d_subtweet)
 
 [Hei, GIF kiisust, kes joob piima](#act1d_milk)
 
@@ -105,7 +105,7 @@ bb({eyes:"look"});
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: HEH jah, see on tõesti armas, ma--
+h: HEH jah, see on tÃµesti armas, ma--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -113,7 +113,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: KASSID EI SUUDA PIIMA SEEDIDA NING ME OLEME KOHUTAVAD INIMESED, KUNA NAUDIME LOOMADE VÄÄRKOHTLEMIST
+b: KASSID EI SUUDA PIIMA SEEDIDA NING ME OLEME KOHUTAVAD INIMESED, SEST NAUDIME LOOMADE VÃ„Ã„RKOHTLEMIST
 
 (...200)
 

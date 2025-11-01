@@ -94,7 +94,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 n3: Tervist! See ei ole "mäng", pigem interaktiivne lugu. Loodan, et sulle meeldib lugeda, noh!
 
-n3: Niisis, enne kui alustame, kuidas *sulle* meeldiks lugeda?
+n3: Niisis, enne kui alustame, kuidas *sulle* meeldiks teksti lugeda?
 
 `publish("show_options_bottom")`
 

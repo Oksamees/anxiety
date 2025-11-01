@@ -99,7 +99,6 @@ n3: Niisis, enne kui alustame, kuidas *sulle* meeldiks lugeda?
 
 # intro-start-2
 
-n3: Great! Note: you can always change options with the ⚙ icon below. Also, game auto-saves at each chapter!
 n3: Imeline! Teadmiseks, sa saad muuta seadeid all ⚙ nupu kaudu. Lisaks, mäng salvestab automaatselt iga peatüki juures!
 
 n3: Nüüd, alustagem nüüd meie lugu...

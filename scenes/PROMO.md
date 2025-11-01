@@ -73,7 +73,7 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: SU ÜLESANNE ON KAITSTA OMA INIMEST *OHU EEST*
+n: SU ÜLESANNE ON KAITSTA OMA INIMEST *OHU* EEST!
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 

@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: JA SEE ON INIMESE ÄREVUS
 
-n: _YOU_ ARE THE ANXIETY
+n: _SINA_ OLED ÄREVUS
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Tere! Me oleme jälle siin tagasi?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: SU ÜLESANNE ON KAITSTA ENDA INIMEST *OHU* EEST
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: TEGELIKULT, MÄNGIDES UUESTI SEDA MÄNGU, *OHUSTAB* SEE TEDA HETKEL
 
-n: QUICK, WARN THEM!
+n: KIIRESTI, HOIATA TEDA!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Inimene! Kuula, me oleme jälle ohus! Mängija...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...hakkab meid jälle piinama!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...ei leia alternatiivset lõppu!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...saab ludonarratiivse dissonantsi!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,34 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: Nad panevad meid kerra tõmbuma ja nutma!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: Nad panevad meid su telefoni hävitama, sest me tekitasime sulle paanikahoo!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: Nad panevad meid peokorraldajat *MITTE* lööma!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: Nad panevad meid kaastundlikku kaabakavastast peokorraldajat lööma!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Noh, vähemalt me ​​ei pruugi seekord katuselt alla hüpa...
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: NAD PANEVAD MEID KATUSELT ALLA HÜPPAMA.
+
+
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: KÕIK NEED UUED KOHUTAVAD ASJAD JUHTUVAD MEIEGA JA SIIS ME...
 
 (#act1_replay_end)
 
@@ -96,11 +98,13 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Muidugi, lugu tervikuna on sama, aga igal peatükil on kaks võimalikku lõppu, lisaks kõik need hargnevad dialoogivõimalus...
+
+
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Mängija on pettunud, sulgeb brauseri, kustutab meie tarkvara ja siis me...
 
 (#act1_replay_end)
 
@@ -112,27 +116,28 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: Mis nilbet nüüd?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Lugu rääkis sellest, kuidas sa saad *VALIDA*, et luua tervislik koostöö oma hirmuga,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Aga mängides seda mängu uuesti annab see sama loo, rõhudes, et su *VALIKUTEL* pole tähtsust,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: Seega näidates vastuolu mängu sõnumi ja mehaanika vahel,
 
 `bb({eyes:"fear"});`
 
 b: Thus unraveling the fabric of this narrative universe,
+b: Seega hargneb lahti selle narratiivse universumi lõngakera
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: Ja siis me..
 
 (#act1_replay_end)
 
@@ -141,7 +146,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: SUREMEEEEEEEEEEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -165,13 +170,14 @@ hong({body:"0_sammich"});
 ```
 
 h: Okay let's get back into character.
+H: Okei, lähme tagasi tegelaskujule üle.
 
 ```
 Game.clearText();
 ```
 
 n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
-
+n4: (LASE _SINU_ ÄREVUSEL BLA-BLAA-BLAA KÕIGE SARNASEM MIDA _SINU_ HIRM BLA-BLAA, SA TEAD MIDA TEHA)
 ```
 sfx("squeak");
 hong({body:"0_squeeze"});
@@ -186,17 +192,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Oh hea, mu hunt on tagasi. Iiiimeline.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: SU ÜLESANNE ON ENDA INIMEST KAITSTA *OHU* EEST
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: ÕIETI, SEE VÕILEIB *OHUSTAB* TEDA PRAEGU
 
-n: QUICK, WARN THEM!
+n: KIIRESTI, HOIATA TEDA!
 
 ```
 sfx("squeak");

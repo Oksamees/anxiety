@@ -116,7 +116,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Mis nilbet nüüd?
+h: Mida nilbust nüüd?
 
 `bb({eyes:"normal"});`
 
@@ -124,7 +124,7 @@ b: Lugu rääkis sellest, kuidas sa saad *VALIDA*, et luua tervislik koostöö o
 
 `bb({eyes:"normal_right"});`
 
-b: Aga mängides seda mängu uuesti annab see sama loo, rõhudes, et su *VALIKUTEL* pole tähtsust,
+b: Aga mängides seda mängu uuesti annab see sama tulemuse, rõhudes, et su *VALIKUTEL* pole tähtsust,
 
 `bb({eyes:"narrow_eyebrow"});`
 
@@ -132,7 +132,6 @@ b: Seega näidates vastuolu mängu sõnumi ja mehaanika vahel,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
 b: Seega hargneb lahti selle narratiivse universumi lõngakera
 
 `bb({body:"fear"});`
@@ -169,8 +168,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
-H: Okei, lähme tagasi tegelaskujule üle.
+h: Okei, lähme tagasi enda tegelaskujule üle.
 
 ```
 Game.clearText();
@@ -192,7 +190,7 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh hea, mu hunt on tagasi. Iiiimeline.
+h: Uh. Vinge, mu hunt on tagasi. Lihtsalt imeline.
 
 `hong({eyes:"0_neutral"})`
 
@@ -210,21 +208,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Inimene! Kuula, Me oleme ohus! See oht on...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (LASE _ENDA_ ÄREVUSEL MÄNGIMA TULLA! VALI, MIS OLEKS KÕIGE SARNASEM _SINU ENDA_ HIRMULE)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Me sööme jälle üksinda lõunat! Jälle!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Me ei ole produktiivsed söömise ajal!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[See sai on sinu tervisele halb!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -233,7 +231,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Kas sa ei tea, et üksildus on seotud varajase surmaga, sama palju kui suitsetada 15 sigaretti päevas?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -243,17 +241,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Ee, tänan, et viitasid allikale, aga--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Mis tähendab, et kui me ei saa kellegagi kokku *koheselt*, siis me-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: SUREMEEEEEEEEEEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -266,7 +264,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: SA KASUTASID *HIRMU OLLES MITTE ARMASTATUD*
 
 (#act1b)
 
@@ -277,27 +275,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: Võta enda sülearvuti ja hakka nüüd tööle!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Ee, ma parem ei pudistaks enda klaviatuuri vahe--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: Kui me ei panusta ühiskonda, siis me oleme ühiskonna parasiit.
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: Ühiskond läheb ühiskonna arsti juurde ravimi saamiseks, et tappa ühiskonna parasiite ja siis me--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: SUREMEEEEEEEEEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -310,7 +308,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: SA KASUTASID *HIRMU OLLA HALB INIMENE*
 
 (#act1b)
 
@@ -321,18 +319,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: Kas neid uuringuid on korratu--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
+b: Töödeldus vili tõstab meie veresuhkru kõrgele ehk nad peavad kõik meie jäsemed amputeerima ja siis me-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: SUREMEEEEEEEEEEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -345,37 +343,37 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: SA KASUTASID *HIRMU OLLES OHUSTATUD*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: SEE ON VÄGA TÕHUS 
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: Näed, inimene? Ma olen sinu lojaalne valvehunt!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: Usalda kõhutunnet! Su tunnetel on alati õigus!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: VII ENDA INIMESE ENERGIA TASE NULLI
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: ET KAITSTA TEMA FÜÜSILIST + SOTSIAALSET + MORAALSEID VAJADUSE, SA SAAD KASUTADADA
 
-n: FEAR OF *BEING HARMED* #harm#
+n: HIRM *OHUSTATUSE EES* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: HIRM *OLLES MITTE ARMASTATUD* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: JA HIRM *OLLES HALB INIMENE* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (SOOVITUS: MÄNGI VALIKUID, MIS PUUDUTAB SINU ISIKLIKKE SÜGAVAID, TUMEDAMAID HIRME!~)
 
 h: ...
 
@@ -389,7 +387,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: sa tead mis, peaks äkki nüüd enda telefoni vaatama.
 
 ```
 sfx("rustle2");

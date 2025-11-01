@@ -98,7 +98,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Muidugi, lugu tervikuna on sama, aga igal peatükil on kaks võimalikku lõppu, lisaks kõik need hargnevad dialoogi võimalus...
+h: Muidugi, lugu tervikuna on sama, aga igal peatükil on kaks võimalikku lõppu, lisaks kõik need hargnevad dialoogi võimaluse...
 
 `bb({body:"fear"});`
 
@@ -172,7 +172,7 @@ h: Okei, lähme tagasi enda tegelaskujule üle.
 Game.clearText();
 ```
 
-n4: (LASE _SINU_ ÄREVUSEL BLA-BLAA-BLAA KÕIGE SARNASEM MIDA _SINU_ HIRM BLA-BLAA, SA TEAD MIDA TEHA)
+n4: (LASE _ENDA_ ÄREVUSEL BLA-BLAA-BLAA KÕIGE SARNASEM _ENDA_ PÄRIS HIRMUDELE BLA-BLAA... SA TEAD MIDA TEHA)
 
 ```
 sfx("squeak");
@@ -188,7 +188,7 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Uh. Vinge, mu hunt on tagasi. Lihtsalt imeline.
+h: Vinge, mu hunt on tagasi. Lihtsalt imeline.
 
 `hong({eyes:"0_neutral"})`
 
@@ -210,7 +210,7 @@ b: Inimene! Kuula, Me oleme ohus! See oht on...
 
 `bb({body:"squeeze"})`
 
-n4: (LASE _ENDA_ ÄREVUSEL MÄNGIMA TULLA! VALI, MIS OLEKS KÕIGE SARNASEM _SINU ENDA_ HIRMULE)
+n4: (LASE _ENDA_ ÄREVUSEL MÄNGIMA TULLA! VALI, MIS OLEKS KÕIGE SARNASEM _SINU_ _ENDA_ HIRMULE)
 
 (#act1_normal_choice)
 
@@ -361,7 +361,7 @@ b: Usalda kõhutunnet! Su tunnetel on alati õigus!
 
 n: VII ENDA INIMESE ENERGIA TASE NULLI
 
-n: ET KAITSTA TEMA FÜÜSILIST + SOTSIAALSET + MORAALSEID VAJADUSE, SA SAAD KASUTADADA
+n: ET KAITSTA TEMA FÜÜSILIST + SOTSIAALSET + MORAALSEID VAJADUSI, SA SAAD KASUTADA
 
 n: HIRM *OHUSTATUSE EES* #harm#
 
@@ -371,7 +371,7 @@ n: JA HIRM *OLLES HALB INIMENE* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (SOOVITUS: MÄNGI VALIKUID, MIS PUUDUTAB SINU ISIKLIKKE SÜGAVAID, TUMEDAMAID HIRME!~)
+n4: (SOOVITUS: VALI SEE, MIS PUUDUTAB SINU ISIKLIKKE, SÜGAVAID JA TUMEDAMAID HIRME!~)
 
 h: ...
 
@@ -434,7 +434,7 @@ b: No siis!
 
 [Ütle jah, või me sureme üksindusse!](#act1c_loner)
 
-[Ütle ei, see on kupakil täis mürgistest narkootikumidest!](#act1c_drugs)
+[Ütle ei, seal on mürgiseid narkootikume!](#act1c_drugs)
 
 [Eira seda. Me oleme pidude jaoks liiga masendavad](#act1c_sad)
 

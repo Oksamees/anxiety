@@ -118,7 +118,7 @@ h: Mida nilbust nüüd?
 
 `bb({eyes:"normal"});`
 
-b: Lugu rääkis sellest, kuidas sa saad *VALIDA*, et luua tervislik koostöö oma hirmuga,
+b: Lugu rääkis sellest, kuidas sa saad *VALIDA* võimalusi, et luua tervislik koostöö oma hirmuga,
 
 `bb({eyes:"normal_right"});`
 
@@ -500,7 +500,7 @@ b: Vaala kaka, inimene! Vaala kaka!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: or even worse... WHITE BREAD
+b: või veel hullem... VALGE SAI
 {{/if}}
 
 {{if _.whitebread}}
@@ -508,11 +508,11 @@ b: or even worse... WHITE BREAD
 {{/if}}
 
 {{if _.whitebread}}
-b: We'll overdose on so much meth and white bread they won't be able to fit our fat corpse into the cremation furnace!
+b: Me doseerime üle suurest kogusest metast ja valgest saiast ja neil pole võimalik meie paksu ^raibet^ krematooriumi ahju pista!
 {{/if}}
 
 {{if !_.whitebread}}
-b: We'll overdose on so many drugs the undertaker will wonder how our body was *already* pre-embalmed!
+b: Me saame üledoosi nii paljudest narkootikumidest, et matusekorraldaja imestaks, kuidas meie keha oli *juba* eel palsameeritud!
 {{/if}}
 
 ```
@@ -523,14 +523,14 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Besides, can't party, we need to do work or we're a terrible society-parasite!
+b: Pealegi, me ei saa pidutseda. Peame töötama või muidu me oleme ühiskonna parasiit.
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: ^Kurat^. Kui see vaigastab sind,,siis olgu.
 
-h: I'll say no.
+h: Ma ütlen ei.
 
 `_.partyinvite="no"`
 
@@ -543,15 +543,15 @@ h: I'll say no.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: All we ever do is cry in a corner about how loneliness is as deadly as 15 cigarettes a day.
+b: Kõik, mis me ainult tegema hakkame on nutmine selle üle kuidas üksildus on sama surmav kui 15 sigaretti päevas.
 {{/if}}
 
 {{if _.parasite}}
-b: All we ever do at parties is worry about how we should be productive instead.
+b: Kõik, mis me pidudel teeme on ainult muretsemine, et me peaksime pidutsemise asemel produktiivsed olema.
 {{/if}}
 
 {{if _.whitebread}}
-b: All we ever do is worry about how the unhealthy food options are going to kill us.
+b: Kõik, mis me teeme on ainult muretsemine sellest, et ebatervislik toiduvalik meid tapab.
 {{/if}}
 
 ```

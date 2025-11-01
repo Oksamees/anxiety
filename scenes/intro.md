@@ -100,7 +100,7 @@ n3: Niisis, enne kui alustame, kuidas *sulle* meeldiks lugeda?
 
 # intro-start-2
 
-n3: Imeline! Teadmiseks, sa saad muuta seadeid all ⚙ nupu kaudu. Lisaks, mäng salvestab automaatselt iga peatüki juures!
+n3: Imeline! Teadmiseks, sa saad muuta seadeid alumise ⚙ nupu kaudu. Lisaks, mäng salvestab automaatselt iga peatüki juures!
 
 n3: Nüüd, alustagem nüüd meie lugu...
 

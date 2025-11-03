@@ -559,19 +559,19 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: gee i wonder why.
+h: jeez, huvitav külk miks.
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: So if we go we'll make them feel bad, but if we reject their invite we'll also make them feel bad!
+b: Kui me läheme, me morjendame neid, aga kui me lükkame kutse tagasi, siis me morjendame neid veel rohkem.
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: ALL WE DO IS MAKE PEOPLE FEEL BAD, SO WE SHOULD FEEL BAD
+b: KÕIK, MIDA OSKAME TEHA ON AINULT INIMESTES HALBA TUNDE TEKITAMINE
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -582,9 +582,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. If it'll make you shut up, fine.
+h: Aghhh. Olgu, kui see sul suu kinna paneb.
 
-h: I'll ignore the invite.
+h: Ma ei vasta kutsele.
 
 `_.partyinvite="ignore"`
 
